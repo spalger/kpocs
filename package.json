@@ -1,0 +1,26 @@
+{
+  "name": "kpocs",
+  "private": true,
+  "dependencies": {
+    "@spalger/babel-presets": "^0.3.2",
+    "@spalger/eslint-config-personal": "^0.6.1",
+    "babel-cli": "^6.14.0",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.5",
+    "bluebird": "^3.4.6",
+    "eslint": "^3.5.0",
+    "eslint-config-airbnb": "^11.1.0",
+    "eslint-import-resolver-webpack": "^0.6.0",
+    "eslint-plugin-babel": "^3.3.0",
+    "eslint-plugin-import": "https://git.io/vizfd",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0",
+    "joi": "^9.0.4",
+    "joi-browser": "^9.0.4",
+    "lodash": "^4.16.1",
+    "moment": "^2.15.1",
+    "serve": "^1.4.0",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.5"
+  }
+}
