@@ -1,16 +1,15 @@
+import { AlbumsService } from './albums-service'
+
+// sync with direct `import`
 kibana.addProvider({
   id: 'albumsService',
   require: [ 'photosService' ],
   provide(photosService) {
-    return new Promise(resolve => {
-      require([ './albums-service' ], ({ AlbumsService }) => {
-        resolve(new AlbumsService(photosService))
-      })
-    })
+    return new AlbumsService(photosService)
   },
 })
 
-
+// async with Promise constructor
 kibana.addProvider({
   id: 'profilesService',
   require: [ 'albumsService' ],

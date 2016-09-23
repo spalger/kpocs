@@ -16,6 +16,7 @@ export class KibanaClient {
     }
 
     const firstApp = await providers.get(appProviders[0].getId())
-    console.log('bootstrap of %j complete', firstApp)
+    console.log('bootstrap complete')
+    console.log(firstApp)
   }
 }

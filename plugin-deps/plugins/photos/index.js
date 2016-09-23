@@ -1,5 +1,6 @@
 import { fromCallback as fcb } from 'bluebird'
 
+// async with async/await
 kibana.addProvider({
   id: 'photosService',
   async provide() {
